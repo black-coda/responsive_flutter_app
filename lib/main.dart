@@ -21,7 +21,7 @@ class AppEntry extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ResponsiveWidget(
+      home: const ResponsiveWidget(
         mobileScaf: MobileScaf(),
         tabletScaf: TabletScaf(),
         desktopScaf: DesktopScaf(),
@@ -29,4 +29,3 @@ class AppEntry extends StatelessWidget {
     );
   }
 }
-
