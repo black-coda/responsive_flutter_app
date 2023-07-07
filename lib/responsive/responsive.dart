@@ -15,7 +15,7 @@ class ResponsiveWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraint) {
-        if (constraint.maxWidth < 590) {
+        if (constraint.maxWidth < 600) {
           return mobileScaf;
         } else if (constraint.maxWidth < 1000) {
           return tabletScaf;

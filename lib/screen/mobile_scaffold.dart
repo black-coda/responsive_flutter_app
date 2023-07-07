@@ -13,21 +13,21 @@ class MobileScaf extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xff1A1C20),
       drawer: const Drawer(),
-      appBar: AppBar(
-        backgroundColor: const Color(0xffA57E56),
-        actions: const [
-          Icon(
-            Icons.search,
-            color: Color(0xffb897fb),
-          )
-        ],
-        centerTitle: true,
-        title: const Icon(
-          Icons.account_balance_rounded,
-          color: Color(0xff1E365E),
-          size: 30,
-        ),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: const Color(0xffA57E56),
+      //   actions: const [
+      //     Icon(
+      //       Icons.search,
+      //       color: Color(0xffb897fb),
+      //     )
+      //   ],
+      //   centerTitle: true,
+      //   title: const Icon(
+      //     Icons.account_balance_rounded,
+      //     color: Color(0xff1E365E),
+      //     size: 30,
+      //   ),
+      // ),
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.all(16),
